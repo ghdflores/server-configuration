@@ -1,0 +1,10 @@
+booking:
+  property: Booking profile dev
+
+  spring:
+    application:
+      name: booking-microservice
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
