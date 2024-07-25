@@ -4,8 +4,8 @@ booking:
   spring:
     application:
       name: booking-microservice
-    datasource:
-      url: jdbc:mysql://localhost:3306/bookingdb
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookingdb
   jpa:
     hibernate:
       ddl-auto: update
