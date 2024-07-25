@@ -1,2 +1,8 @@
 booking:
   property: Booking profile prod
+
+spring:
+  application:
+    name: booking-microservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookingdb
