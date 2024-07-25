@@ -6,10 +6,10 @@ spring:
     name: booking-microservice
   datasource:
    url: jdbc:mysql://localhost:3306/bookingdb
-jpa:
-  hibernate:
-    ddl-auto: update
-  show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 app:
 testProp: Test property
