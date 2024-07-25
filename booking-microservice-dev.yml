@@ -12,4 +12,4 @@ spring:
     show-sql: true
 
 app:
-testProp: Test property
+  testProp: Test property
