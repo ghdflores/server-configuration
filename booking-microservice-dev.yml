@@ -1,15 +1,15 @@
 booking:
   property: Booking profile dev updated 2
 
-  spring:
-    application:
-      name: booking-microservice
-    datasource:
-     url: jdbc:mysql://localhost:3306/bookingdb
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+spring:
+  application:
+    name: booking-microservice
+  datasource:
+   url: jdbc:mysql://localhost:3306/bookingdb
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
 
 app:
-  testProp: Test property
+testProp: Test property
